@@ -1,0 +1,23 @@
+<h1 class="user_details">Trend365</h1>
+<% if current_user %>
+  <h2>Favorites</h2>
+  <ul>
+    <% @favorites.each do |favorite| %>
+      <li>
+        <%= link_to favorite.title, favorite_path(favorite) %>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <div class="jumbotron">
+    <h2>The Story <i>Is</i> The Story</h2>
+    <p>Does the media play favorites?  Is it liberal?  Conservative?  Are journalists coddling leaders they should be holding accountable?</p>
+    <p>Trend365 offers you unprecedented article-by-article analysis answering just these questions.
+    We've parsed the news and brought underlying sentiment to light, representing positive and negative coverage with vibrant bar graphs.</p>
+    <p>Are topics you care about getting a fair shake?  See for yourself.</p>
+    <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+
+
+  </div>
+<% end %>
+
