@@ -6,7 +6,7 @@
 
 Does the media play favorites? Is it liberal? Conservative? Are journalists coddling leaders they should be holding accountable?
 Trend365 offers you unprecedented article-by-article analysis answering just these questions. We've parsed the news and brought underlying sentiment to light, representing positive and negative coverage with vibrant bar graphs.
-Are topics you care about getting a fair shake? [See for yourself](http://nyt-sentiment.herokuapp.com/ "See for yourself").
+Are topics you care about getting a fair shake? [See for yourself](http://trend365.herokuapp.com/ "See for yourself").
 
 Trend365 is a web application that allows users to enter search terms and see related New York Times articles along with a graph visualization that displays negative and positive sentiment trends relating to those keywords.
 
